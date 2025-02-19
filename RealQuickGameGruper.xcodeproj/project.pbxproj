@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FACCE5CC2D6613A8006581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACCE5AA2D6613A6006581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACCE5B12D6613A6006581C6;
+			remoteInfo = RealQuickGameGruper;
+		};
+		FACCE5D62D6613A8006581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACCE5AA2D6613A6006581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACCE5B12D6613A6006581C6;
+			remoteInfo = RealQuickGameGruper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACCE5B22D6613A6006581C6 /* RealQuickGameGruper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealQuickGameGruper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACCE5CB2D6613A8006581C6 /* RealQuickGameGruperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealQuickGameGruperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACCE5D52D6613A8006581C6 /* RealQuickGameGruperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealQuickGameGruperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FACCE5B42D6613A6006581C6 /* RealQuickGameGruper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealQuickGameGruper;
+			sourceTree = "<group>";
+		};
+		FACCE5CE2D6613A8006581C6 /* RealQuickGameGruperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealQuickGameGruperTests;
+			sourceTree = "<group>";
+		};
+		FACCE5D82D6613A8006581C6 /* RealQuickGameGruperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealQuickGameGruperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACCE5AF2D6613A6006581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5C82D6613A8006581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5D22D6613A8006581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACCE5A92D6613A6006581C6 = {
+			isa = PBXGroup;
+			children = (
+				FACCE5B42D6613A6006581C6 /* RealQuickGameGruper */,
+				FACCE5CE2D6613A8006581C6 /* RealQuickGameGruperTests */,
+				FACCE5D82D6613A8006581C6 /* RealQuickGameGruperUITests */,
+				FACCE5B32D6613A6006581C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACCE5B32D6613A6006581C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACCE5B22D6613A6006581C6 /* RealQuickGameGruper.app */,
+				FACCE5CB2D6613A8006581C6 /* RealQuickGameGruperTests.xctest */,
+				FACCE5D52D6613A8006581C6 /* RealQuickGameGruperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACCE5B12D6613A6006581C6 /* RealQuickGameGruper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACCE5DF2D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruper" */;
+			buildPhases = (
+				FACCE5AE2D6613A6006581C6 /* Sources */,
+				FACCE5AF2D6613A6006581C6 /* Frameworks */,
+				FACCE5B02D6613A6006581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FACCE5B42D6613A6006581C6 /* RealQuickGameGruper */,
+			);
+			name = RealQuickGameGruper;
+			packageProductDependencies = (
+			);
+			productName = RealQuickGameGruper;
+			productReference = FACCE5B22D6613A6006581C6 /* RealQuickGameGruper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACCE5CA2D6613A8006581C6 /* RealQuickGameGruperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACCE5E22D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruperTests" */;
+			buildPhases = (
+				FACCE5C72D6613A8006581C6 /* Sources */,
+				FACCE5C82D6613A8006581C6 /* Frameworks */,
+				FACCE5C92D6613A8006581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACCE5CD2D6613A8006581C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FACCE5CE2D6613A8006581C6 /* RealQuickGameGruperTests */,
+			);
+			name = RealQuickGameGruperTests;
+			packageProductDependencies = (
+			);
+			productName = RealQuickGameGruperTests;
+			productReference = FACCE5CB2D6613A8006581C6 /* RealQuickGameGruperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACCE5D42D6613A8006581C6 /* RealQuickGameGruperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACCE5E52D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruperUITests" */;
+			buildPhases = (
+				FACCE5D12D6613A8006581C6 /* Sources */,
+				FACCE5D22D6613A8006581C6 /* Frameworks */,
+				FACCE5D32D6613A8006581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACCE5D72D6613A8006581C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FACCE5D82D6613A8006581C6 /* RealQuickGameGruperUITests */,
+			);
+			name = RealQuickGameGruperUITests;
+			packageProductDependencies = (
+			);
+			productName = RealQuickGameGruperUITests;
+			productReference = FACCE5D52D6613A8006581C6 /* RealQuickGameGruperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACCE5AA2D6613A6006581C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FACCE5B12D6613A6006581C6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FACCE5CA2D6613A8006581C6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FACCE5B12D6613A6006581C6;
+					};
+					FACCE5D42D6613A8006581C6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FACCE5B12D6613A6006581C6;
+					};
+				};
+			};
+			buildConfigurationList = FACCE5AD2D6613A6006581C6 /* Build configuration list for PBXProject "RealQuickGameGruper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACCE5A92D6613A6006581C6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FACCE5B32D6613A6006581C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACCE5B12D6613A6006581C6 /* RealQuickGameGruper */,
+				FACCE5CA2D6613A8006581C6 /* RealQuickGameGruperTests */,
+				FACCE5D42D6613A8006581C6 /* RealQuickGameGruperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACCE5B02D6613A6006581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5C92D6613A8006581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5D32D6613A8006581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACCE5AE2D6613A6006581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5C72D6613A8006581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCE5D12D6613A8006581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACCE5CD2D6613A8006581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACCE5B12D6613A6006581C6 /* RealQuickGameGruper */;
+			targetProxy = FACCE5CC2D6613A8006581C6 /* PBXContainerItemProxy */;
+		};
+		FACCE5D72D6613A8006581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACCE5B12D6613A6006581C6 /* RealQuickGameGruper */;
+			targetProxy = FACCE5D62D6613A8006581C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FACCE5DD2D6613A8006581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACCE5DE2D6613A8006581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACCE5E02D6613A8006581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACCE5E12D6613A8006581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACCE5E32D6613A8006581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealQuickGameGruper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealQuickGameGruper";
+			};
+			name = Debug;
+		};
+		FACCE5E42D6613A8006581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealQuickGameGruper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealQuickGameGruper";
+			};
+			name = Release;
+		};
+		FACCE5E62D6613A8006581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealQuickGameGruper;
+			};
+			name = Debug;
+		};
+		FACCE5E72D6613A8006581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RK5649GTL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.RealQuickGameGruperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealQuickGameGruper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACCE5AD2D6613A6006581C6 /* Build configuration list for PBXProject "RealQuickGameGruper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACCE5DD2D6613A8006581C6 /* Debug */,
+				FACCE5DE2D6613A8006581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACCE5DF2D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACCE5E02D6613A8006581C6 /* Debug */,
+				FACCE5E12D6613A8006581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACCE5E22D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACCE5E32D6613A8006581C6 /* Debug */,
+				FACCE5E42D6613A8006581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACCE5E52D6613A8006581C6 /* Build configuration list for PBXNativeTarget "RealQuickGameGruperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACCE5E62D6613A8006581C6 /* Debug */,
+				FACCE5E72D6613A8006581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACCE5AA2D6613A6006581C6 /* Project object */;
+}
