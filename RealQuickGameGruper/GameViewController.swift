@@ -11,14 +11,19 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    var play : GameScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
+                
+                play = scene as? GameScene
                 
                 // Present the scene
                 view.presentScene(scene)
@@ -32,14 +37,17 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscapeRight
     }
 
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    @IBAction func resetButtonAction(_ sender: UIButton) {
+        play.reset()
+    }
+    @IBAction func jumpButtonAction(_ sender: UIButton) {
+        play.ball.physicsBody?.velocity.dy = 500
+        play.ball.physicsBody?.velocity.dx = 50
     }
 }
