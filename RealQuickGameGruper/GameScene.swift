@@ -24,6 +24,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if contact.bodyA.node?.name == "ball" || contact.bodyB.node?.name == "ball"{
             if contact.bodyB.node?.name == "coin"{
                 points += 1
+                contact.bodyB.node?.isHidden = true
                 print(points)
             }
             else{
